@@ -16,6 +16,10 @@ extension Dictionary {
         return str
     }
     
+    
+    
+    
+    
     // MARK: 字符串转字典
     func stringValueDic(_ str: String) -> [String : Any]?{
         let data = str.data(using: String.Encoding.utf8)
